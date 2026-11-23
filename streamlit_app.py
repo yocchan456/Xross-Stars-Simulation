@@ -714,7 +714,7 @@ if run_btn and all_valid_50:
 
     # --- グラフ描画設定 ---
     sns.set_theme(style="whitegrid")
-    # plt.rcParams["font.family"] = "IPAexGothic"
+    matplotlib_fontja.japanize()
     colors = sns.color_palette("husl", len(patterns_input))
 
     def plot_keycard_grid(prob_key, count_key, card_label):
