@@ -3,7 +3,7 @@ import statistics
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import japanize_matplotlib
+import matplotlib_fontja
 import streamlit as st
 
 # ==========================================
