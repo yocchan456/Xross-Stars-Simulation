@@ -240,7 +240,7 @@ with tab_sim:
     # 3. メイン画面：各パターンのデッキ構築入力
     # ==========================================
     st.subheader("🌟 各パターンのデッキ構築（合計50枚）")
-    tabs = st.tabs([f"パターン {i+1}" for i in range(compare_count)])
+    tabs = st.tabs([f"パターン {i+1}🃏" for i in range(compare_count)])
     
     patterns_input = []
     all_valid_50 = True
